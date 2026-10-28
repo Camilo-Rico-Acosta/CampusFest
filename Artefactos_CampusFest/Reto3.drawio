@@ -1,0 +1,39 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="sBNJOfS89fWs2lY_4-9F">
+    <mxGraphModel dx="1269" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n_PWMdMl5ytYlfMrmcdM-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Estudiante" vertex="1">
+          <mxGeometry height="80" width="40" x="400" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n_PWMdMl5ytYlfMrmcdM-2" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;" value="Pamtalla evento" vertex="1">
+          <mxGeometry height="70" width="80" x="374" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="n_PWMdMl5ytYlfMrmcdM-3" edge="1" parent="1" source="n_PWMdMl5ytYlfMrmcdM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.562;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="n_PWMdMl5ytYlfMrmcdM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_PWMdMl5ytYlfMrmcdM-4" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" value="Calcular cupos" vertex="1">
+          <mxGeometry height="80" width="70" x="379" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="n_PWMdMl5ytYlfMrmcdM-5" edge="1" parent="1" source="n_PWMdMl5ytYlfMrmcdM-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.211;entryY=0.223;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;startArrow=none;startFill=0;endArrow=none;endFill=0;" target="n_PWMdMl5ytYlfMrmcdM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_PWMdMl5ytYlfMrmcdM-6" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" value="Evento" vertex="1">
+          <mxGeometry height="60" width="60" x="520" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="n_PWMdMl5ytYlfMrmcdM-8" edge="1" parent="1" source="n_PWMdMl5ytYlfMrmcdM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="n_PWMdMl5ytYlfMrmcdM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_PWMdMl5ytYlfMrmcdM-7" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" value="Reserva" vertex="1">
+          <mxGeometry height="60" width="60" x="630" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="n_PWMdMl5ytYlfMrmcdM-9" edge="1" parent="1" source="n_PWMdMl5ytYlfMrmcdM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

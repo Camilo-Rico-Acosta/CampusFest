@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="18EZ9peswaNsbIEzLhWo">
+    <mxGraphModel dx="1269" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_JZRY-G20MgGmM1tFpKE-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Estudiante" vertex="1">
+          <mxGeometry height="70" width="40" x="360" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_JZRY-G20MgGmM1tFpKE-2" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;" value="Pantalla eventos" vertex="1">
+          <mxGeometry height="80" width="100" x="320" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="_JZRY-G20MgGmM1tFpKE-3" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" value="Gestión reserva" vertex="1">
+          <mxGeometry height="80" width="70" x="260" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="_JZRY-G20MgGmM1tFpKE-4" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" value="Calcular disponibilidad" vertex="1">
+          <mxGeometry height="80" width="70" x="400" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="_JZRY-G20MgGmM1tFpKE-5" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" value="Eventos" vertex="1">
+          <mxGeometry height="80" width="70" x="400" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="_JZRY-G20MgGmM1tFpKE-10" edge="1" parent="1" source="_JZRY-G20MgGmM1tFpKE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="_JZRY-G20MgGmM1tFpKE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JZRY-G20MgGmM1tFpKE-6" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" value="Reserva" vertex="1">
+          <mxGeometry height="80" width="70" x="250" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="_JZRY-G20MgGmM1tFpKE-7" edge="1" parent="1" source="_JZRY-G20MgGmM1tFpKE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.606;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="_JZRY-G20MgGmM1tFpKE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JZRY-G20MgGmM1tFpKE-8" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.786;entryY=0.238;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352.7748303715671" y="290" as="sourcePoint" />
+            <mxPoint x="320" y="349.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_JZRY-G20MgGmM1tFpKE-9" edge="1" parent="1" source="_JZRY-G20MgGmM1tFpKE-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.317;entryY=0.118;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;exitX=0.83;exitY=0.968;exitDx=0;exitDy=0;exitPerimeter=0;" target="_JZRY-G20MgGmM1tFpKE-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="572.7748303715671" y="310" as="sourcePoint" />
+            <mxPoint x="540" y="369.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_JZRY-G20MgGmM1tFpKE-11" edge="1" parent="1" source="_JZRY-G20MgGmM1tFpKE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.511;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="_JZRY-G20MgGmM1tFpKE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JZRY-G20MgGmM1tFpKE-12" edge="1" parent="1" source="_JZRY-G20MgGmM1tFpKE-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.729;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="_JZRY-G20MgGmM1tFpKE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JZRY-G20MgGmM1tFpKE-13" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Chess-2744/Time-850.svg;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="70" width="56.45" x="128.06" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="_JZRY-G20MgGmM1tFpKE-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10 minutos" vertex="1">
+          <mxGeometry height="30" width="70" x="128.06" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="_JZRY-G20MgGmM1tFpKE-15" edge="1" parent="1" source="_JZRY-G20MgGmM1tFpKE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.438;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="_JZRY-G20MgGmM1tFpKE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
